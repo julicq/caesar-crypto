@@ -33,7 +33,7 @@ def decrypt_data(data, private_key):
 
 def main():
     # Generate a new public-private key pair
-    (public_key, private_key) = rsa.newkeys(512)
+    (public_key, private_key) = rsa.newkeys(1024)
 
     # Input data
     data = input("Enter a message to encrypt: ")
